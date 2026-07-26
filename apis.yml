@@ -1,7 +1,28 @@
 aid: datumate
 name: Datumate
-description: Datumate is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Datumate is a construction technology company whose cloud-native SaaS platform,
+  DatuBIM, turns drone imagery, laser-scanning, and site data into real-time
+  progress tracking, deviation detection, automated reporting, and actionable
+  analytics for heavy civil infrastructure projects. It serves asset owners,
+  general contractors, and engineering and consulting firms across roads,
+  highways, rail, bridges, and earthworks, giving multi-site visibility from
+  design validation through construction to final inspection. The company reports
+  125+ active customers, thousands of managed sites, and tens of thousands of
+  processed drone flights. Datumate has Israeli engineering roots (Technion) with
+  leadership based in Miami, Florida, and is backed by Battery Ventures.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datumate.com/wp-content/uploads/2023/07/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/datumate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Construction Technology
+- Construction
+- Infrastructure
+- Civil Engineering
+- Drones
+- Reality Capture
+- BIM
+- Geospatial
+- Analytics
+- SaaS
+- Surveying
 apis: []
+common:
+- type: DomainSecurity
+  url: security/datumate-domain-security.yml
+- type: Website
+  url: https://www.datumate.com/
+- type: Login
+  url: https://bim.datumate.com/
+- type: SignUp
+  url: https://www.datumate.com/demo/
+- type: Blog
+  url: https://www.datumate.com/blog/
+- type: Support
+  url: https://www.datumate.com/company/contact-us/
+- type: TermsOfService
+  url: https://www.datumate.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.datumate.com/privacy-policy/
+- type: About
+  url: https://www.datumate.com/company/about-us/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
