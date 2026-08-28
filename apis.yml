@@ -11,6 +11,17 @@ description: >-
   125+ active customers, thousands of managed sites, and tens of thousands of
   processed drone flights. Datumate has Israeli engineering roots (Technion) with
   leadership based in Miami, Florida, and is backed by Battery Ventures.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
